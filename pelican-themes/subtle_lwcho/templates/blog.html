@@ -7,31 +7,18 @@
         {# First item #}
         {% if loop.first and not articles_page.has_previous() %}
             <aside id="body" class="body">
-                <article class="article">
+                <article>
                     <h1 class="entry-title"><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h1> 
                     {% include 'article_infos.html' %}{{ article.content }}{% include 'comments.html' %}
                 </article>
-                <section id="extras" class="sidebar"> 
-                    {% if LINKS %}
-                        <h2 class='sidebar_header'>Blogs I love!</h2>
-                        <hr class='line1'/>
-                        <ul>
-                        {% for name, link in LINKS %}
-                            <li><a href="{{ link }}">{{ name }}</a></li>
-                        {% endfor %}
-                        </ul>
-                </section>
-                {% endif %}
                 {% if loop.length == 1 %}
                     {% include 'pagination.html' %}
                 {% endif %}
-
             </aside><!-- /#featured -->
-
             {% if loop.length > 1 %}
                 <section id="content" class="body">
-                    <h1 class='other_article'>Other articles</h1>
-                    <hr class="line1"/>
+                    <h1>Other articles</h1>
+                    <hr />
                     <ol id="posts-list" class="hfeed">
             {% endif %}
         {# other items #}
@@ -71,5 +58,3 @@
 </section>
 {% endif %}
 {% endblock content %}
-
-{% block title %}{{ SITENAME }} - {{ category }}{% endblock %}

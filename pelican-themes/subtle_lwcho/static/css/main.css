@@ -23,7 +23,7 @@
 body {
     background: #FFF;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 20px ;
+    font-size: 17px ;
     line-height: 1.429;
     margin: 0;
     padding: 0;
@@ -32,7 +32,7 @@ body {
 
 /* Headings */
 h1 {font-size: 1.5em }
-h2 {font-size: 1em}	/* 22px */
+h2 {font-size: 1.489em}	/* 22px */
 h3 {font-size: 1.429em}	/* 20px */
 h4 {font-size: 1.286em}	/* 18px */
 h5 {font-size: 1.143em}	/* 16px */
@@ -48,8 +48,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h3, h4, h5, h6 { margin-top: .8em; }
-	
-hr { border: 2px solid #EEEEEE; }
+
 
 /* Anchors */
 a {outline: 0;}
@@ -92,8 +91,8 @@ ol {
 
 .post-info {
     float:right;
-    margin:5px;
-    padding:9px;
+    /*margin:5px;
+    adding:9px;*/
 }
 
 .post-info p{
@@ -106,7 +105,51 @@ dl {margin: 0 0 1.5em 0;}
 dt {font-weight: bold;}
 dd {margin-left: 1.5em;}
 
-pre{background-color: #000; padding: 10px; color: #fff; margin: 10px; overflow: auto;}
+pre{background-color: #000; 
+	padding: 10px; 
+	color: #fff; 
+	margin: 10px; 
+	overflow: auto;
+	font-size: 0.8em;}
+
+/* standard 
+pre {
+  	overflow: auto;
+  	word-wrap: normal;
+  	white-space: pre;
+  	border: 1px solid #ddd;
+	background-color: #eef;
+	background-color: #002b36;
+	padding-left: 1em;
+
+}
+
+code {
+  color:#000;
+  font-size: .5em
+  background-color: transparent;
+}
+
+pre {
+  border: 3px solid #002b36;
+  color:#93a1a1;
+}
+
+pre code {
+  border: none;
+}
+
+
+pre.terminal {
+  border: 1px solid #000;
+  background-color: #333;
+  color: #FFF;
+}
+
+pre.terminal code {
+  background-color: #333;
+}
+*/
 
 /* Quotes */
 blockquote {
@@ -148,10 +191,31 @@ aside, nav, article, figure {
 	display: block;
 }
 
+
+/**** Bottom *****/
+.other_article {
+	margin-bottom: .3em;
+}
+
+/***** Sidebar ****/
+.sidebar_header {
+	margin-bottom: .3em;
+	margin-top: .3em;
+}
+
+/***** Lines ******/
+.line1 { border: 1.5px dashed #ddd; 
+		 border-style: none none dashed; 
+		 padding: 0px; 
+		 margin: 0px; 
+		}
+
 /***** Layout *****/
 .body {clear: both; margin: 0 auto; width: 800px;}
 img.right figure.right {float: right; margin: 0 0 2em 2em;}
 img.left, figure.left {float: right; margin: 0 0 2em 2em;}
+.sidebar {width: 23%; float: right;}
+.article {width: 75%; float: left;}
 
 /*
 	Header
@@ -181,16 +245,21 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 	
 	/* Main Nav */
 	#banner nav {
-		background: #000305;
+		background: #fff;
 		font-size: 1.143em;
 		height: 40px;
 		line-height: 30px;
+		
 		margin: 0 auto 2em auto;
+		
 		padding: 0;
 		text-align: center;
 		width: 800px;
 		
 		border-radius: 5px;
+		border-style: dashed;
+		border-width: 1px;
+		border-color: black;
 		-moz-border-radius: 5px;
 		-webkit-border-radius: 5px;
 	}
@@ -199,11 +268,14 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 	#banner nav li {float: left; display: inline; margin: 0;}
 	
 	#banner nav a:link, #banner nav a:visited {
-		color: #fff;
+		color: #000;
 		display: inline-block;
 		height: 30px;
-		padding: 5px 1.5em;
+		font-size: 1.2em;
+		padding: 5px 1em;
 		text-decoration: none;
+		font-family: 'Reenie Beanie';
+		font-style: normal;
 	}
 	#banner nav a:hover, #banner nav a:active,
 	#banner nav .active a:link, #banner nav .active a:visited {
@@ -332,6 +404,8 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 		background-size: 16px 16px; }
 
 
+
+
 /*
 	About
 *****************/
@@ -357,6 +431,9 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 
 #about .bio {float: right; width: 500px;}
 
+
+
+
 /*
 	Footer
 *****************/
@@ -367,13 +444,14 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 .hentry {
 	display: block;
 	clear: both;
-	border-bottom: 1px solid #eee;
+	/*border-bottom: 1px solid #eee;*/
 	padding: 1.5em 0;
+	padding-bottom: 3em
 }
 li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
 #content > .hentry {padding: 1em 0;}
 .hentry img{display : none ;}
-.entry-title {font-size: 3em; margin-bottom: 10px; margin-top: 0;}
+.entry-title {font-size: 2.4em; margin-bottom: 10px; margin-top: 0;}
 .entry-title a:link, .entry-title a:visited {text-decoration: none; color: #333;}
 .entry-title a:visited {background-color: #fff;}
 
@@ -389,11 +467,9 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
 	#posts-list .hentry {padding-left: 10px; position: relative;}
 	
 	#posts-list footer {
-		left: 10px;
 		position: relative;
         float: left;
-		top: 0.5em;
-		width: 190px;
+		width: 177px;
 	}
 	
 	/* About the Author */
