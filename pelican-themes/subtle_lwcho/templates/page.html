@@ -1,10 +1,23 @@
 {% extends "base.html" %}
 {% block title %}{{ page.title }}{% endblock %}
-{% block content %}        
+{% block content %}
+<link rel="stylesheet" href="{{ SITEURL }}/theme/css/page.css" type="text/css" />
+{% if page.title in MENU_PAGES %}  
 <section id="content" class="body">    
-    <h1 class="entry-title">{{ page.title }}</h1>
     {% if PDF_PROCESSOR %}<a href="{{ SITEURL }}/pdf/{{ page.slug }}.pdf">get
     the pdf</a>{% endif %}
     {{ page.content }}
 </section>
+{% else %}
+<section id="content_project" class="body">    
+    <!--This is a banner -->
+</section>
+<section class="body">
+{% if PDF_PROCESSOR %}<a href="{{ SITEURL }}/pdf/{{ page.slug }}.pdf">get
+    the pdf</a>{% endif %}
+    {{ page.content }}
+
+</section>
+{% endif %}
+
 {% endblock %}

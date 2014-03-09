@@ -1,0 +1,154 @@
+.header-right .social {
+    vertical-align: middle;
+}
+
+.social-item {
+    width: 28px;
+    height: 30px;
+    margin: 1px 0 0 4px;
+}
+
+.social-rss {
+    background: url(social-icons.png) no-repeat -130px 0px;
+}
+
+.social-rss:hover {
+    background-position: -130px -30px;
+}
+
+.social-rss:active {
+    background-position: -130px -60px;
+}
+
+.social-linkedin {
+    background: url(social-icons.png) no-repeat -65px 0px;
+}
+
+.social-linkedin:hover {
+    background-position: -65px -30px;
+}
+
+.social-linkedin:active {
+    background-position: -65px -60px;
+}
+
+.social-facebook {
+    background: url(social-icons.png) no-repeat 0px 0px;
+}
+
+.social-facebook:hover {
+    background-position: 0px -30px;
+}
+
+.social-facebook:active {
+    background-position: 0px -60px;
+}
+
+.social-twitter {
+    background: url(social-icons.png) no-repeat -32px 0px;
+}
+
+.social-twitter:hover {
+    background-position: -32px -30px;
+}
+
+.social-twitter:active {
+    background-position: -32px -60px;
+}
+
+.social-mail {
+    background: url(social-icons.png) no-repeat -97px 0px;
+}
+
+.social-mail:hover {
+    background-position: -97px -30px;
+}
+
+.social-mail:active {
+    background-position: -97px -60px;
+}
+
+.social-pinterest {
+    background: url(social-icons.png) no-repeat -227px 0px;
+}
+
+.social-pinterest:hover {
+    background-position: -227px -30px;
+}
+
+.social-pinterest:active {
+    background-position: -227px -60px;
+}
+
+.social-youtube {
+    background: url(social-icons.png) no-repeat -325px 0px;
+}
+
+.social-youtube:hover {
+    background-position: -325px -30px;
+}
+
+.social-youtube:active {
+    background-position: -325px -60px;
+}
+
+.social-plus {
+    background: url(social-icons.png) no-repeat -195px 0px;
+}
+
+.social-plus:hover {
+    background-position: -195px -30px;
+}
+
+.social-plus:active {
+    background-position: -195px -60px;
+}
+
+.social-flickr {
+    background: url(social-icons.png) no-repeat -162px 0px;
+}
+
+.social-flickr:hover {
+    background-position: -162px -30px;
+}
+
+.social-flickr:active {
+    background-position: -162px -60px;
+}
+
+.social-vimeo {
+    background: url(social-icons.png) no-repeat -260px 0px;
+}
+
+.social-vimeo:hover {
+    background-position: -260px -30px;
+}
+
+.social-vimeo:active {
+    background-position: -260px -60px;
+}
+/*
+.social-yahoo {
+    background: url(social-icons.png) no-repeat -292px 0px;
+}
+
+.social-yahoo:hover {
+    background-position: -292px -30px;
+}
+
+.social-yahoo:active {
+    background-position: -292px -60px;
+}
+*/
+
+.social-yahoo {
+    background: url(github.png) no-repeat 0px 0px;
+}
+
+.social-yahoo:hover {
+    background-position: 0px -30px;
+}
+
+.social-yahoo:active {
+    background-position: 0px -60px;
+}

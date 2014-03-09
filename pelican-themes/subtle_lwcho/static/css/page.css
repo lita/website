@@ -1,0 +1,44 @@
+/**** About Page ****/
+.about_image {
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    float: left;
+    padding-right: 1rem;
+    width: 30%;
+    height: 30%;
+
+}
+
+#content_project {
+    background: url("toptop.png") no-repeat, url('downdown.png') no-repeat, url("white.png") repeat;
+    background-position: top,bottom,top;
+    margin-bottom: 2em;
+    overflow: hidden;
+    padding: 20px 20px;
+    width: 760px;
+    
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+}
+
+.youtube-container {
+position: relative;
+padding-bottom: 56.25% !important;
+padding-top: 30px;
+height: 0;
+overflow: hidden;
+}
+
+.youtube-wrapper {
+max-width: 100%;
+}
+
+.youtube-size-large {
+width: 501px;
+}
+
+.youtube-align-center {
+margin: 0 auto;
+}

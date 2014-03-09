@@ -1,0 +1,10 @@
+.about_image {
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    float: left;
+    padding-right: 1rem;
+    width: 30%;
+    height: 30%;
+
+}

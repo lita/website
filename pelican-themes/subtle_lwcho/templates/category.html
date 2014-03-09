@@ -1,6 +1,10 @@
 {% extends "base.html" %}
+
 {% block content_title %}{% endblock %}
 {% block content %}        
+ 
+ <link rel="stylesheet" href="{{ SITEURL }}/theme/css/blog.css" type="text/css" />
+
 {% if articles %}
     {% for article in articles_page.object_list %}        
 
@@ -12,14 +16,18 @@
                     {% include 'article_infos.html' %}{{ article.content }}{% include 'comments.html' %}
                 </article>
                 <section id="extras" class="sidebar"> 
-                    {% if LINKS %}
+                    {% if BLOG_LINKS %}
                         <h2 class='sidebar_header'>Blogs I love!</h2>
                         <hr class='line1'/>
                         <ul>
-                        {% for name, link in LINKS %}
+                        {% for name, link in BLOG_LINKS %}
                             <li><a href="{{ link }}">{{ name }}</a></li>
                         {% endfor %}
                         </ul>
+                        <br></br>
+                        <div>
+                        <a href="/feeds/all.atom.xml" class="rss"><img src="/images/bg_feed.gif">Atom Feed</a>
+                        </div>
                 </section>
                 {% endif %}
                 {% if loop.length == 1 %}
