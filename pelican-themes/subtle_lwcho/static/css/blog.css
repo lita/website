@@ -1,3 +1,94 @@
+/* Blog */
+.hentry {
+    display: block;
+    clear: both;
+    /*border-bottom: 1px solid #eee;*/
+    padding: 1.5em 0;
+    padding-bottom: 3em
+}
+li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
+#content > .hentry {padding: 1em 0;}
+.hentry img{display : none ;}
+.entry-title {font-size: 2.4em; margin-bottom: 10px; margin-top: 0;}
+.entry-title a:link, .entry-title a:visited {text-decoration: none; color: #333;}
+.entry-title a:visited {background-color: #fff;}
+
+.hentry .post-info * {font-style: normal;}
+
+    /* Content */
+    .hentry footer {margin-bottom: 2em;}
+    .hentry footer address {display: inline;}
+    #posts-list footer address {display: block;}
+
+    /* Blog Index */
+    #posts-list {list-style: none; margin: 0;}
+    #posts-list .hentry {padding-left: 10px; position: relative;}
+    
+    #posts-list footer {
+        position: relative;
+        float: left;
+        width: 10em;
+        padding-right: 1em;
+    }
+    
+    /* About the Author */
+    #about-author {
+        background: #f9f9f9;
+        clear: both;
+        font-style: normal;
+        margin: 2em 0;
+        padding: 10px 20px 15px 20px;
+        
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+    }
+    
+    #about-author strong {
+        color: #C64350;
+        clear: both;
+        display: block;
+        font-size: 1.429em;
+    }
+    
+    #about-author .photo {border: 1px solid #ddd; float: left; margin: 5px 1em 0 0;}
+    
+    /* Comments */
+    #comments-list {list-style: none; margin: 0 1em;}
+    #comments-list blockquote {
+        background: #f8f8f8;
+        clear: both;
+        font-style: normal;
+        margin: 0;
+        padding: 15px 20px;
+        
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+    }
+    #comments-list footer {color: #888; padding: .5em 1em 0 0; text-align: right;}
+    
+    #comments-list li:nth-child(2n) blockquote {background: #F5f5f5;}
+    
+    /* Add a Comment */
+    #add-comment label {clear: left; float: left; text-align: left; width: 150px;}
+    #add-comment input[type='text'],
+    #add-comment input[type='email'],
+    #add-comment input[type='url'] {float: left; width: 200px;}
+    
+    #add-comment textarea {float: left; height: 150px; width: 495px;}
+    
+    #add-comment p.req {clear: both; margin: 0 .5em 1em 0; text-align: right;}
+    
+    #add-comment input[type='submit'] {float: right; margin: 0 .5em;}
+    #add-comment * {margin-bottom: .5em;}
+
+
+.summary {
+    margin-left: 12em
+}
+
 .rss {
     font-size: 0.8em;
 }
+

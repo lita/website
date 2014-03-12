@@ -15,7 +15,7 @@
                     <h1 class="entry-title"><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h1> 
                     {% include 'article_infos.html' %}{{ article.content }}{% include 'comments.html' %}
                 </article>
-                <section id="extras" class="sidebar"> 
+                <aside id="extras" class="sidebar"> 
                     {% if BLOG_LINKS %}
                         <h2 class='sidebar_header'>Blogs I love!</h2>
                         <hr class='line1'/>
@@ -28,7 +28,7 @@
                         <div>
                         <a href="/feeds/all.atom.xml" class="rss"><img src="/images/bg_feed.gif">Atom Feed</a>
                         </div>
-                </section>
+                </aside>
                 {% endif %}
                 {% if loop.length == 1 %}
                     {% include 'pagination.html' %}
@@ -55,9 +55,13 @@
                 
                 <div class="entry-content">
                 {% include 'article_infos.html' %}
+
+                <div class="summary">
                 {{ article.summary }}
                 <a class="readmore" href="{{ SITEURL }}/{{ article.url }}">read more</a>
                 {% include 'comments.html' %}
+                </div>
+                
                 </div><!-- /.entry-content -->
             </article></li>
         {% endif %}

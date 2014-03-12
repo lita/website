@@ -9,6 +9,7 @@
     height: 30%;
 
 }
+/***** Projects *****/
 
 #content_project {
     background: url("toptop.png") no-repeat, url('downdown.png') no-repeat, url("white.png") repeat;
@@ -23,6 +24,13 @@
     -webkit-border-radius: 0px;
 }
 
+.banner_project {
+    font-size: 2.4em;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+/***** Youtube *****/
 .youtube-container {
 position: relative;
 padding-bottom: 56.25% !important;
