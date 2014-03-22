@@ -30,6 +30,7 @@ body {
     text-align: left;
 }
 
+
 /* Headings */
 h1 {font-size: 1.5em }
 h2 {font-size: 1.489em}	/* 22px */
@@ -58,15 +59,12 @@ a:link, a:visited {
 	padding: 0 1px;
 	text-decoration: underline;
 }
-a:hover, a:active {
-	background-color: #C74451;
-	color: #fff;
-	text-decoration: none;
-	text-shadow: 1px 1px 1px #333;
-}
 
 h1 a:hover {
     background-color: inherit
+    color: #fff;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px #333;
 }
 	
 /* Paragraphs */
@@ -222,8 +220,69 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 	Header
 *****************/
 #banner {
+	position: relative;
 	margin: 0 auto;
 	padding: 2.5em 0 0 0;
+}
+
+#banner .social {
+	position: absolute;
+	top: 25px;
+	right: 5px;
+}
+
+#banner .social:hover,  #banner .social:active  {
+	background-color: white;
+}
+
+#banner .icon {
+	width: 32px;
+	height: 32px;
+	background-size: 32px 32px;
+	background-repeat: no-repeat;
+	display: inline-block;
+}
+
+
+#banner .facebook:hover, #banner .facebook:active {
+	background-image: url('/images/icons/Facebook_a.png');
+}
+
+#banner .facebook {
+	background-image: url('/images/icons/Facebook.png');
+}
+
+#banner .github:hover, #banner .github:active {
+	background-image: url('/images/icons/Github_a.png');
+}
+
+#banner .github {
+	background-image: url('/images/icons/Github.png');
+}
+
+
+#banner .linkedin:hover, #banner .linkedin:active {
+	background-image: url('/images/icons/Linkedin_a.png');
+}
+
+#banner .linkedin {
+	background-image: url('/images/icons/Linkedin.png');
+}
+
+#banner .rss:hover, #banner .rss:active {
+	background-image: url('/images/icons/RSS_a.png');
+}
+
+#banner .rss {
+	background-image: url('/images/icons/RSS.png');
+}
+
+#banner .twitter:hover, #banner .twitter:active {
+	background-image: url('/images/icons/Twitter_a.png');
+}
+
+#banner .twitter {
+	background-image: url('/images/icons/Twitter.png');
 }
 
 	/* Banner */
@@ -278,11 +337,13 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 		font-family: 'Reenie Beanie';
 		font-style: normal;
 	}
+
 	#banner nav a:hover, #banner nav a:active,
 	#banner nav .active a:link, #banner nav .active a:visited {
 		background: #C74451;
 		color: #fff;           
 		text-shadow: none !important;
+		text-shadow: 1px 1px 1px #333;
 	}
 	
 	#banner nav li:first-child a {
@@ -300,7 +361,9 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 *****************/
 #featured {
 	
-	background: url("toptop.png") no-repeat, url('downdown.png') no-repeat, url('groovepaper.png') repeat;
+	background: url("toptop.png") no-repeat, 
+				url('downdown.png') no-repeat, 
+				url('groovepaper.png') repeat;
 	background-position: top,bottom,top;
 	margin-bottom: 2em;
 	overflow: hidden;
@@ -330,7 +393,9 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 	Body
 *****************/
 #content {
-	background: url("toptop.png") no-repeat, url('downdown.png') no-repeat, url("white.png") repeat;
+	background: url("toptop.png") no-repeat, 
+				url('downdown.png') no-repeat, 
+				url("white.png") repeat;
 	background-position: top,bottom,top;
 	margin-bottom: 2em;
 	overflow: hidden;
@@ -364,7 +429,7 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 	padding: .3em .25em;
 }
 
-#extras a:hover, #extras a:active {color: #fff;}
+#extras a:hover, #extras a:active {color: #C74451;}
 
 	/* Blogroll */
 	#extras .blogroll {
@@ -386,26 +451,6 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 		padding-left: 25px;
 	}
 	
-		/* Icons */
-		
-
-		.social a[href*='facebook.com'] {background-image: url('../images/icons/facebook.png');
-		background-size: 16px 16px; }
-		.social a[href*='twitter.com'] {background-image: url('../images/icons/twitter_alt.png');
-		background-size: 16px 16px;  }
-		.social a[href*='quora.com'] {background-image: url('../images/icons/quora.png');
-		background-size: 16px 16px; }
-		.social a[href*='github.com'] {background-image: url('../images/icons/github.png');
-		background-size: 16px 16px; }
-		.social a[href*='news.ycombinator.com'] {background-image: url('../images/icons/hacker_news.png');
-		background-size: 16px 16px; }
-		.social a[href*='instapaper.com'] {background-image: url('../images/icons/instapaper.png');
-		background-size: 16px 16px; }
-		.social a[href*='hypem.com'] {background-image: url('../images/icons/hype_machine.png');
-		background-size: 16px 16px; }
-
-
-
 
 /*
 	About

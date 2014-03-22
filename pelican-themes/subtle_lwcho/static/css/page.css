@@ -50,3 +50,10 @@ width: 501px;
 .youtube-align-center {
 margin: 0 auto;
 }
+
+ section a:hover, section a:active{
+    background: #C74451;
+    color: #fff;           
+    text-shadow: none !important;
+    text-shadow: 1px 1px 1px #333;
+}

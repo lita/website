@@ -6,12 +6,14 @@
     padding: 1.5em 0;
     padding-bottom: 3em
 }
+
 li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
 #content > .hentry {padding: 1em 0;}
 .hentry img{display : none ;}
 .entry-title {font-size: 2.4em; margin-bottom: 10px; margin-top: 0;}
 .entry-title a:link, .entry-title a:visited {text-decoration: none; color: #333;}
 .entry-title a:visited {background-color: #fff;}
+.entry-title a:hover, .entry-title a:active{color:#C74451;}
 
 .hentry .post-info * {font-style: normal;}
 
@@ -92,3 +94,14 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
     font-size: 0.8em;
 }
 
+/*subnote*/
+.subnote {
+    font-size: small;
+}
+
+ article a:hover, article a:active{
+    background: #C74451;
+    color: #fff;           
+    text-shadow: none !important;
+    text-shadow: 1px 1px 1px #333;
+}

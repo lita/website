@@ -48,6 +48,7 @@ DISQUS_SITENAME = "litacho"
 
 DISPLAY_PAGES_ON_MENU = False
 MENU_PAGES = ['Projects', 'About']
+STATIC_PATHS = ['favicon.ico',]
 
 #GITHUB_URL="http://www.github.com/litacho"
 #TWITTER_USERNAME="litacho"

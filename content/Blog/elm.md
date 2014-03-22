@@ -1,6 +1,6 @@
 Title: Working with Elm
 Date: 2014-03-05 02:07
-Tags: elm, website hacker school
+Tags: elm, website, hacker school
 Slug: working-with-elm
 
 Last week, we had Evan Czaplicki as our resident! He is an awesome guy who
