@@ -111,6 +111,11 @@ pre{background-color: #000;
 	overflow: auto;
 	font-size: 0.8em;}
 
+code {
+  border: 1px solid #aaa;
+
+}
+
 /* standard 
 pre {
   	overflow: auto;
@@ -123,11 +128,7 @@ pre {
 
 }
 
-code {
-  color:#000;
-  font-size: .5em
-  background-color: transparent;
-}
+
 
 pre {
   border: 3px solid #002b36;

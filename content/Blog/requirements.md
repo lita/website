@@ -1,6 +1,6 @@
 Title: Fun with Python and pip!
 Date: 2014-03-22 
-Tags: python, hacker school
+Tags: pip, python, hacker school
 Slug: pip-freeze
 
 I have been programming in Python for quite awhile now. However, I am still
@@ -31,6 +31,5 @@ I had no idea pip was so powerful! `pip list -e` lists all the out-dated
 libraries you have in your project, `pip search <query>` searches the PyPi
 libraries for modules! I need to learn more about the program!
 
-I am working on this HUGE blog post about Databases. But it needs to be proof-
-read and refined. Hopefully I get that out soon!
+I am working on this HUGE blog post about Databases. But it needs to be proof-read and refined. Hopefully I get that out soon!
 
