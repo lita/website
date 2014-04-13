@@ -117,7 +117,7 @@ appear!
 
 [intro]: http://www.haskell.org/haskellwiki/Introduction
 [elm]: http://www.elm-lang.org
-[gist]: http://share-elm.com/sprout/5320e1f1e4b0f7cc0dd4e697
+[gist]: http://bit.ly/1j49ggu
 [firstGist]: http://share-elm.com/sprout/5317940ee4b0f7cc0dd4e16d
 [try]: http://elm-lang.org/try
 [mario]: http://elm-lang.org/edit/examples/Intermediate/Mario.elm
