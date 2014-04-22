@@ -1,0 +1,7 @@
+
+## Type: Document Databases  
+#### Examples: MongoDB, CouchDB
+Document database are just collections of tables. I like to think of them how Microsoft Excel works. There are 2D tables and there are "Sheets", which are collections of tables. There are tons of duplicate data. The tables can't point to another table, like relational databases. 
+
+## Graph Databases
+#### Neo4J, Polyglot

@@ -1,13 +1,13 @@
 Title: Path Module
-Date: 2014-03-31
+Date: 2014-04-13
 Slug: path-and-import
 Tags: python, hacker school, path module, previous life
 
-In order to take a break from making Flask apps, my Bittorrent client, messing with various databases, and reading HTTP protocol documentation, I wanted to write about Python, something I'm know.
+In order to take a break from making Flask apps, my Bittorrent client, messing with various databases, and reading HTTP protocol documentation, I wanted to write about Python, something I know.
 
 While working at Dreamworks Animation, my favorite module was the "path" module. This is a 3rd party module dealing with file paths. It makes paths as first class objects, allowing you to do some common operations on them.  We had our own version at Dreamworks, which hooks into our proprietary software. But path.py is still useful by itself. This is way better than using os.path. Hopefully, after this blog post, you will never use os.path... ever.
 
-You might think module sounds boring. I mean, file directories... really? Well, when you are working with hundreds of thousands of images (30 frames in a second, 90 minutes in an animated film, so we are talking 30*60*90=162,000 images for an entire movie, not including composite layers that make up one image), this module is a godsend. We were constantly renaming, deleting, copying and moving files all over the place. Most of the marketing tasks were frankensteining some frames together in order to meet deadlines. 
+You might think module sounds boring. I mean, file directories... really? Well, when you are working with hundreds of thousands of images (30 frames in a second, 90 minutes in an animated film, so we are talking 30 x 60 x 90=162,000 images for an entire movie, not including composite layers that make up one image), this module is a godsend. We were constantly renaming, deleting, copying and moving files all over the place. Most of the marketing tasks were frankensteining some frames together in order to meet deadlines. 
 
 But you can use this module in everyday tasks! Like cleaning up unnecessary data or making a script to rename some music files in Python! Here are some examples of using this module! If you are following along, please start in an empty directory.
 
