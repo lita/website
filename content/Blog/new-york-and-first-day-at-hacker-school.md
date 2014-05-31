@@ -2,6 +2,7 @@ Title: New York and First Day at Hacker School
 Date: 2014-02-11 19:11
 Tags: new york, webGL, hacker school, flask
 Slug: new-york-and-first-day-at-hacker-school
+Category: programming
 
 If you haven't heard, I decided to quit my cushy job at Dreamworks
 Animation and move to New York. It seems kind of crazy, but I spent all

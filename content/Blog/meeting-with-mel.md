@@ -1,7 +1,8 @@
 Title: Meeting with Mel
 Date: 2014-02-20 03:20
-Tags: Uncategorized
+Tags: life, career
 Slug: meeting-with-mel
+Category: personal
 
 I met with Mel Chua today, 1-on-1, in order to get a better idea of how
 I can make the most of my time at Hacker School. She mentioned intrinsic

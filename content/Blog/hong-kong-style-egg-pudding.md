@@ -2,6 +2,7 @@ Title: Hong Kong Style Egg Pudding
 Date: 2013-12-31 06:57
 Tags: cooking, desserts
 Slug: hong-kong-style-egg-pudding
+Category: personal
 
 My boyfriend and I had egg pudding for the very first time while
 traveling in Hong Kong last year. We ate it almost every day at the

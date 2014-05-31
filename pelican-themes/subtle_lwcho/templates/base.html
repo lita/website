@@ -34,7 +34,7 @@
                 </div>
                 <h1><a href="{{ SITEURL }}/index.html">{{ SITENAME }} {% if SITESUBTITLE %} <strong>{{ SITESUBTITLE }}</strong>{% endif %}</a></h1>
 
-                <nav><ul>
+                <nav><ul class="main">
                     <li {% if page_name == 'index' %}class="active"{% endif %}><a href="{{ SITEURL }}/index.html">Home</a>|</li>
                 {% for title, link in MENUITEMS %}
                     <li><a href="{{ link }}">{{ title }}</a></li> 
@@ -52,14 +52,30 @@
                     {% endif %}
                 {% endfor %}
                 {% endif %}
-                
+
+                <!--               
+                <li class="dropdown">
+                    Blog
+                    <ul class="dropdown">
+                    {% for cat, null in categories %}
+                        <li class="test"><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
+                    {% endfor %}
+                    </ul>
+                    </li>
+                -->
+
                 <!--Displays Categories on Menu -->
+                 <li {% if "blog" == category %}class="active"{% endif %}><a href="{{ SITEURL }}/category/blog.html">Blog</a></li> 
+
+                 <!--
                 {% if DISPLAY_CATEGORIES_ON_MENU %}
                     {% for cat, null in categories %}
                         <li {% if cat == category %}class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
                     {% endfor %}
                 {% endif %}
-                </ul></nav>
+                </ul> 
+                -->
+                </nav>
         </header><!-- /#banner -->
         {% block content %}
         {% endblock %}
