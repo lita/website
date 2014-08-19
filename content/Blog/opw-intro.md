@@ -2,7 +2,7 @@ Title: OPW and Tkinter!
 Date: 2014-5-29 16:18
 Tags: opw, python, tkinter
 Slug: opw-intro
-Authors: Alexis Metaireau, Conan Doyle
+Authors: Lita Cho
 Summary: Describing my first day at OPW working on CPython and Turtle
 
 

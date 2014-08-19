@@ -1,2 +1,7 @@
+Python:
+- different was to test if methods exists dynamically. Converting string commands to methods.
+    - hashtable pointing from string to method
+    - using hasattr method! Look at SimpleIMAPServer class in test_imaplib.py as an example.
+
 css:
 http://bavotasan.com/2011/circular-images-with-css3/
